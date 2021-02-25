@@ -1,0 +1,10 @@
+spring:
+  dataSource:
+    url: jdbc:mysql://localhost:3307/spring_batch?useUnicode=true&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+  batch:
+    initialize-schema: ALWAYS
+#    job:
+#      names: jobDemo6_parent_Job
